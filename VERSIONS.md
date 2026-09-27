@@ -7,12 +7,13 @@ Generated from [`versions.json`](versions.json) by `source/tools/publisher/relea
 | Channel | Launcher | Version name | Release | Content | Feed signed |
 | --- | --- | --- | --- | --- | --- |
 | stable | none yet | | | | |
-| beta | none yet | | | | |
+| beta | 27 | 0.22-channels-rc | [launcher-v27-beta](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v27-beta) | 2 | 2026-09-27 |
 
 ## Launcher builds
 
 | Launcher | Version name | Runtime | Content | Channels | x86_64 SHA-256 | arm64-v8a SHA-256 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 27 | 0.22-channels-rc | 121 | 2 | beta | `caa706d117203fa7…` | `2173452c46194aa9…` |
 
 ## Game data caches
 
