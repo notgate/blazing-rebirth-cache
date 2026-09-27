@@ -2,12 +2,61 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-27T18:01:50Z",
+  "updated": "2026-09-27T18:04:48Z",
   "channels": {
     "stable": null,
-    "beta": null
+    "beta": {
+      "installerVersion": 27,
+      "displayVersion": "0.22-channels-rc",
+      "tag": "launcher-v27-beta",
+      "feedTag": "apk-updates-beta",
+      "signed": "2026-09-27T18:04:48Z",
+      "manifests": {
+        "x86_64": {
+          "sequence": 1,
+          "expiresUtc": 1800900283,
+          "payloadSha256": "5f9b6bdf125a2dc4319c1e3a7f65b1629c526fe3e016a38a954af1d8b76ab128"
+        },
+        "arm64-v8a": {
+          "sequence": 2,
+          "expiresUtc": 1800900285,
+          "payloadSha256": "575f00e3563d7991577c29ddea18cb0a259af90866b4a825176c41d486a78c10"
+        }
+      }
+    }
   },
-  "launchers": [],
+  "launchers": [
+    {
+      "installerVersion": 27,
+      "displayVersion": "0.22-channels-rc",
+      "gameVersion": 121,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v27-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 178183395,
+          "sha256": "caa706d117203fa729f2ba42a61236dba6732fbcf2886600a29904219f6bb02b"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 178057415,
+          "sha256": "2173452c46194aa96ebbb916f953b287373f7774c397c88ee07468f2e75a4c52"
+        }
+      },
+      "notes": "Installer 27 (0.22-channels-rc): launcher updates arrive through the Beta and Stable channels; game-data updates can come with a launcher update (download the new data once afterwards, saves kept). Includes installer 26: Vanilla save slots with .blzsave export/import, harder Phantom Castle (6-7 star sync-skill teams), icons for every launcher section.",
+      "published": {
+        "beta": "2026-09-27T18:04:48Z"
+      }
+    }
+  ],
   "caches": [
     {
       "contentVersion": 1,
