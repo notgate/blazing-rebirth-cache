@@ -2,25 +2,25 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-27T18:04:48Z",
+  "updated": "2026-09-27T18:19:22Z",
   "channels": {
     "stable": null,
     "beta": {
-      "installerVersion": 27,
-      "displayVersion": "0.22-channels-rc",
-      "tag": "launcher-v27-beta",
+      "installerVersion": 29,
+      "displayVersion": "0.23-channels-rc",
+      "tag": "launcher-v29-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-27T18:04:48Z",
+      "signed": "2026-09-27T18:19:22Z",
       "manifests": {
         "x86_64": {
-          "sequence": 1,
-          "expiresUtc": 1800900283,
-          "payloadSha256": "5f9b6bdf125a2dc4319c1e3a7f65b1629c526fe3e016a38a954af1d8b76ab128"
+          "sequence": 3,
+          "expiresUtc": 1800901158,
+          "payloadSha256": "516b248ef39b08c70d965415aec4c1192047acb59981af8a9f2166e091d91638"
         },
         "arm64-v8a": {
-          "sequence": 2,
-          "expiresUtc": 1800900285,
-          "payloadSha256": "575f00e3563d7991577c29ddea18cb0a259af90866b4a825176c41d486a78c10"
+          "sequence": 4,
+          "expiresUtc": 1800901160,
+          "payloadSha256": "3cb52e2a7aa20776ea115bbc3ec5823df2e890ba4e54d0f2ee52e2f42b8348d9"
         }
       }
     }
@@ -54,6 +54,36 @@
       "notes": "Installer 27 (0.22-channels-rc): launcher updates arrive through the Beta and Stable channels; game-data updates can come with a launcher update (download the new data once afterwards, saves kept). Includes installer 26: Vanilla save slots with .blzsave export/import, harder Phantom Castle (6-7 star sync-skill teams), icons for every launcher section.",
       "published": {
         "beta": "2026-09-27T18:04:48Z"
+      }
+    },
+    {
+      "installerVersion": 29,
+      "displayVersion": "0.23-channels-rc",
+      "gameVersion": 121,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v29-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 178183395,
+          "sha256": "d6088fd0af5d015dda1ce8ff443be713ad496db5f011780e76e1ef669ed80770"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 178057415,
+          "sha256": "6bfac607783b7f4a22263897ca1f84829989ce9c3d6f8f324d55cc0bcd523df6"
+        }
+      },
+      "notes": "Installer 29 (0.23-channels-rc): update checks now work on Android 9 and 10 (installer 27 and earlier switched them off there). Launcher updates arrive through the Beta and Stable channels; game-data updates can come with a launcher update (download the new data once afterwards, saves kept). An empty channel now says nothing is published yet. Includes installer 26: Vanilla save slots with .blzsave export/import, harder Phantom Castle (6-7 star sync-skill teams), icons for every launcher section.",
+      "published": {
+        "beta": "2026-09-27T18:19:22Z"
       }
     }
   ],
