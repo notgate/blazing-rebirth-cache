@@ -18,6 +18,14 @@ Generated from [`versions.json`](versions.json) by `source/tools/publisher/relea
 | 29 | 0.23-channels-rc | 121 | 2 | beta | `d6088fd0af5d015d…` | `6bfac607783b7f4a…` |
 | 27 | 0.22-channels-rc | 121 | 2 | beta | `caa706d117203fa7…` | `2173452c46194aa9…` |
 
+## Rollback builds
+
+A rollback build is an older launcher repackaged with a higher installer version, so launchers can revert to it without uninstalling (Updates → Release history → Revert). It keeps that launcher's runtime and game data.
+
+| Launcher | Restores | Version name | Runtime | Content | Release | Feed | x86_64 SHA-256 | arm64-v8a SHA-256 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 32 | 30 | 0.24-history-rc | 121 | 2 | [launcher-v32-rollback](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v32-rollback) | `rollback-30-<abi>.json` | `5d50aebaf3b4ee14…` | `e0b4861f4b0e6272…` |
+
 ## Game data caches
 
 | Content | Release | Archive | Size | Parts | SHA-256 |
