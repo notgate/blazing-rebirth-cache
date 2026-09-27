@@ -1,17 +1,32 @@
-# Blazing:Rebirth cache hosting
+# Blazing:Rebirth releases and game data
 
-Public release-asset storage for the checksum-pinned Blazing:Rebirth cache. Download payloads are attached to [Releases](https://github.com/notgate/blazing-rebirth-cache/releases), not committed into Git or stored in Git LFS.
+Public release assets for Blazing:Rebirth: the checksum-pinned game-data caches and the signed launcher update channels. No source code, saves, credentials or keys are stored here. Payloads are [release](https://github.com/notgate/blazing-rebirth-cache/releases) assets, never Git or LFS files.
 
-## Cache v1
+## Versions
 
-The original ZIP is split into two raw byte segments, each below GitHub's 2 GiB per-asset limit. Concatenating `.part01` followed by `.part02` restores the exact original ZIP; per-part and whole-archive hashes are in `cache-v1.json`.
+[`versions.json`](versions.json) is the version registry; [`VERSIONS.md`](VERSIONS.md) is its readable view. It lists which launcher build each channel serves, every published launcher build with its APK hashes, and every game-data cache with its parts. It is written only by `release_manager.py` after the release assets were uploaded and verified.
 
-Installer 18 downloads both parts automatically, resumes paused transfers, verifies each part and the complete ZIP, then imports the cache through its existing member-integrity checks. GitHub is the primary cache source; the existing Drive endpoint and configured complete-ZIP mirrors remain fallbacks. Testers do not need a GitHub account or token, and do not need to join files manually.
+## Launcher update channels
 
-The cache contains no player saves, session credentials or personal accounts. Installer 17 cannot consume these split assets; an individual part is not a valid full-ZIP mirror.
+| Channel | Who gets it | Feed release | Launcher releases |
+| --- | --- | --- | --- |
+| Beta | Testers who pick Beta in the launcher (Updates, Channel) | [`apk-updates-beta`](https://github.com/notgate/blazing-rebirth-cache/releases/tag/apk-updates-beta) | `launcher-v<N>-beta` (pre-releases) |
+| Stable | Everyone else (default) | [`apk-updates`](https://github.com/notgate/blazing-rebirth-cache/releases/tag/apk-updates) | `launcher-v<N>` |
 
-The exact installer 18 x86-64 test APK completed a full public GitHub download, pause/resume, reassembly and verification/import of all 6178 files on BlueStacks. That isolated test used an opaque, GitHub-only TLS proxy to retain the emulator's nonloopback firewall blocks; the APK contains no test proxy configuration. The ARM64 APK was built and package-verified, but this generation has not been rerun on physical ARM hardware. Installer APKs are distributed separately as test candidates, not attached to this cache release. Install them manually: the tested native Settings screen reports that update verification is unavailable, so native OTA updating is not qualified.
+Each feed holds one signed manifest per Android ABI (`update-x86_64.json`, `update-arm64-v8a.json`). Installed launchers check their channel automatically when idle and online. They accept an update only when:
 
-Publishing cache bytes does not qualify an installer or native game for release. Gameplay, device support and updater approval are separate.
+- the manifest's P-256 signature matches the key built into the launcher, it has not expired, and its sequence is newer than any manifest the phone has already seen;
+- it is for the phone's ABI and channel, raises the installer version, and never lowers the runtime or content version;
+- the GitHub release is published in that channel and its APK asset has the signed size and SHA-256. The downloaded APK is checked again, including its package, signer and embedded versions, before Android's installer opens.
+
+Builds reach Stable only after they were published to Beta.
+
+## Game data caches
+
+Each cache is a ZIP split into raw byte segments below GitHub's 2 GiB asset limit. Joining `.part01`, `.part02`, … in order restores the exact archive; `cache-v<N>.json` pins every part and the whole archive by size and SHA-256. The content version is the `N` in `cache-v<N>`.
+
+A launcher pins exactly one cache. A launcher update that moves to a new content version tells the player that new game data follows; after installing, the launcher shows "Needs game data" and downloads the new cache once (saves are kept). The cache is always published before any launcher that pins it.
+
+## Disclaimer
 
 This is an unofficial community project and is not affiliated with the original game's publishers. Original assets remain subject to their owners' rights; this repository grants no additional license to them.
