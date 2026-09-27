@@ -2,25 +2,25 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-27T18:19:22Z",
+  "updated": "2026-09-27T19:49:11Z",
   "channels": {
     "stable": null,
     "beta": {
-      "installerVersion": 29,
-      "displayVersion": "0.23-channels-rc",
-      "tag": "launcher-v29-beta",
+      "installerVersion": 30,
+      "displayVersion": "0.24-history-rc",
+      "tag": "launcher-v30-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-27T18:19:22Z",
+      "signed": "2026-09-27T19:49:11Z",
       "manifests": {
         "x86_64": {
-          "sequence": 3,
-          "expiresUtc": 1800901158,
-          "payloadSha256": "516b248ef39b08c70d965415aec4c1192047acb59981af8a9f2166e091d91638"
+          "sequence": 5,
+          "expiresUtc": 1800906546,
+          "payloadSha256": "dcc4221242cde40b1acd4af30fdfe39a3f245d87271d10f85a91fea40325c22d"
         },
         "arm64-v8a": {
-          "sequence": 4,
-          "expiresUtc": 1800901160,
-          "payloadSha256": "3cb52e2a7aa20776ea115bbc3ec5823df2e890ba4e54d0f2ee52e2f42b8348d9"
+          "sequence": 6,
+          "expiresUtc": 1800906549,
+          "payloadSha256": "953fa9b52123206f15a114b5836c8d5b2180e3810cde8c69d024da5f066e0ec2"
         }
       }
     }
@@ -84,6 +84,36 @@
       "notes": "Installer 29 (0.23-channels-rc): update checks now work on Android 9 and 10 (installer 27 and earlier switched them off there). Launcher updates arrive through the Beta and Stable channels; game-data updates can come with a launcher update (download the new data once afterwards, saves kept). An empty channel now says nothing is published yet. Includes installer 26: Vanilla save slots with .blzsave export/import, harder Phantom Castle (6-7 star sync-skill teams), icons for every launcher section.",
       "published": {
         "beta": "2026-09-27T18:19:22Z"
+      }
+    },
+    {
+      "installerVersion": 30,
+      "displayVersion": "0.24-history-rc",
+      "gameVersion": 121,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v30-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 178228526,
+          "sha256": "89f19c26aff2353816de7a1304ff3227bf4bec563e14218854107115d5b40a13"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 178102546,
+          "sha256": "4c5b82e88706e364ba27a4dcb8bf82f7da127fa6a842dcfe3d31bbdb7d1c121c"
+        }
+      },
+      "notes": "Installer 30 (0.24-history-rc): when a newer version is out, the launcher asks as it opens (Update now, Later, or Skip this version; turn the question off in Updates). Release history replaces What's new: every version with its changes, and Revert to an earlier version with the same game runtime and game data (saves and game data are kept). Copy the debug log, launcher log or version info to the clipboard; About shows the version and channel; the Appearance section is removed and Back returns to Home.",
+      "published": {
+        "beta": "2026-09-27T19:49:11Z"
       }
     }
   ],
