@@ -2,25 +2,25 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-27T20:37:22Z",
+  "updated": "2026-09-27T21:04:43Z",
   "channels": {
     "stable": null,
     "beta": {
-      "installerVersion": 33,
-      "displayVersion": "0.24.2-history-rc",
-      "tag": "launcher-v33-beta",
+      "installerVersion": 34,
+      "displayVersion": "0.24.3-history-rc",
+      "tag": "launcher-v34-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-27T20:37:22Z",
+      "signed": "2026-09-27T21:04:43Z",
       "manifests": {
         "x86_64": {
-          "sequence": 11,
-          "expiresUtc": 1800909438,
-          "payloadSha256": "d38c5d5efe7822f34a36e068698e6bcd986eb1717519aaa78c7c25133c4c481d"
+          "sequence": 13,
+          "expiresUtc": 1800911078,
+          "payloadSha256": "0f3c258351c989cf08f8ff9c7f40ae8ac0e2c6c91751775abb4216a87e2f7d32"
         },
         "arm64-v8a": {
-          "sequence": 12,
-          "expiresUtc": 1800909440,
-          "payloadSha256": "e877c64e4d30136e704e7547346e4740201d1e79144c6e72840dc6468509a536"
+          "sequence": 14,
+          "expiresUtc": 1800911080,
+          "payloadSha256": "36efef56ffff4160e306dee4ae319ba919afe9de83b8b12feb3d6b0c5faee7bd"
         }
       }
     }
@@ -174,6 +174,36 @@
       "notes": "Installer 33 (0.24.2-history-rc): the same launcher as installer 31, published after the revert test so that a phone on rollback build 32 (installer 30's code) is offered the current launcher again. Includes the Revert fix, the update prompt with Later and Skip, release history, copy to clipboard and the version in About.",
       "published": {
         "beta": "2026-09-27T20:37:22Z"
+      }
+    },
+    {
+      "installerVersion": 34,
+      "displayVersion": "0.24.3-history-rc",
+      "gameVersion": 121,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v34-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 178228526,
+          "sha256": "64b1e3ae2c714e1ace5eb2ffb410f0a46904e17e65439add2e1ed78b43bab3b0"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 178102546,
+          "sha256": "8f65730bfa6bb248a920e6c14b0c04b1fdbc8e1b7ae45b0621dc0f06e7b8a766"
+        }
+      },
+      "notes": "Installer 34 (0.24.3-history-rc): copying the debug log, launcher log or version info always shows a 'Copied' message, even when you copy the same thing twice. Includes installers 30-33: the update prompt with Later and Skip, release history with revert, the Revert fix, and the version in About.",
+      "published": {
+        "beta": "2026-09-27T21:04:43Z"
       }
     }
   ],
