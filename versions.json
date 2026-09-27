@@ -2,7 +2,7 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-27T20:17:11Z",
+  "updated": "2026-09-27T20:24:58Z",
   "channels": {
     "stable": null,
     "beta": {
@@ -195,6 +195,52 @@
         }
       ],
       "published": "2026-09-27T06:01:36Z"
+    }
+  ],
+  "rollbacks": [
+    {
+      "installerVersion": 32,
+      "rollbackOf": 30,
+      "displayVersion": "0.24-history-rc",
+      "tag": "launcher-v32-rollback",
+      "feedTag": "apk-rollbacks",
+      "gameVersion": 121,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 178224496,
+          "sha256": "5d50aebaf3b4ee1420c0aa16d2735b2455b4e2c113a26564759d2bb8c8ffd6bc"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 178098516,
+          "sha256": "e0b4861f4b0e62720e4057b9c54bce469d8c453c4e9c8c1c8e886ac79b319ca8"
+        }
+      },
+      "sources": {
+        "x86_64": "89f19c26aff2353816de7a1304ff3227bf4bec563e14218854107115d5b40a13",
+        "arm64-v8a": "4c5b82e88706e364ba27a4dcb8bf82f7da127fa6a842dcfe3d31bbdb7d1c121c"
+      },
+      "manifests": {
+        "x86_64": {
+          "sequence": 9,
+          "expiresUtc": 1800908693,
+          "payloadSha256": "af04e8b47d0df7dfdccb4677b4b19095915bc167783686e4f6fd94b2349a4f8a"
+        },
+        "arm64-v8a": {
+          "sequence": 10,
+          "expiresUtc": 1800908695,
+          "payloadSha256": "cd967b839edaca64882e1e98f90996fd76e1a0b2ce87c399c904d53b23e2af8d"
+        }
+      },
+      "notes": "Rollback build: installer 30 (0.24-history-rc) republished as installer 32, published to test Revert in the release history.",
+      "published": "2026-09-27T20:24:58Z"
     }
   ]
 }
