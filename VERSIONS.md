@@ -7,12 +7,13 @@ Generated from [`versions.json`](versions.json) by `source/tools/publisher/relea
 | Channel | Launcher | Version name | Release | Content | Feed signed |
 | --- | --- | --- | --- | --- | --- |
 | stable | none yet | | | | |
-| beta | 33 | 0.24.2-history-rc | [launcher-v33-beta](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v33-beta) | 2 | 2026-09-27 |
+| beta | 34 | 0.24.3-history-rc | [launcher-v34-beta](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v34-beta) | 2 | 2026-09-27 |
 
 ## Launcher builds
 
 | Launcher | Version name | Runtime | Content | Channels | x86_64 SHA-256 | arm64-v8a SHA-256 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 34 | 0.24.3-history-rc | 121 | 2 | beta | `64b1e3ae2c714e1a…` | `8f65730bfa6bb248…` |
 | 33 | 0.24.2-history-rc | 121 | 2 | beta | `d5e9ea80c9d50fd5…` | `6612f3734185886b…` |
 | 31 | 0.24.1-history-rc | 121 | 2 | beta | `4066d453b5552791…` | `71583ca8f4d453c4…` |
 | 30 | 0.24-history-rc | 121 | 2 | beta | `89f19c26aff23538…` | `4c5b82e88706e364…` |
