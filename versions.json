@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "repository": "notgate/blazing-rebirth-cache",
+  "package": "dev.blazingrebirth.phone",
+  "updated": "2026-09-27T18:01:50Z",
+  "channels": {
+    "stable": null,
+    "beta": null
+  },
+  "launchers": [],
+  "caches": [
+    {
+      "contentVersion": 1,
+      "tag": "cache-v1",
+      "archive": {
+        "name": "Blazing-Rebirth-Data-v1.zip",
+        "bytes": 3373311629,
+        "sha256": "65f17d2053d53e2fc84361664be30baedab883f1737dea71586e57eb38da2c08"
+      },
+      "parts": [
+        {
+          "name": "Blazing-Rebirth-Data-v1.zip.part01",
+          "bytes": 1800000000,
+          "sha256": "3e349791ffcd58004338f2516b0b126aedf683709d3da737c3c6f62c5f4e0b49",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/cache-v1/Blazing-Rebirth-Data-v1.zip.part01"
+        },
+        {
+          "name": "Blazing-Rebirth-Data-v1.zip.part02",
+          "bytes": 1573311629,
+          "sha256": "9b2a17cd0b651d95183e498f99c46896dfcd784f9f9c29f0bf380cd636ae794d",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/cache-v1/Blazing-Rebirth-Data-v1.zip.part02"
+        }
+      ],
+      "published": "2026-09-22T05:32:50Z"
+    },
+    {
+      "contentVersion": 2,
+      "tag": "cache-v2",
+      "archive": {
+        "name": "Blazing-Rebirth-Data-v2.zip",
+        "bytes": 3961264282,
+        "sha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf"
+      },
+      "parts": [
+        {
+          "name": "Blazing-Rebirth-Data-v2.zip.part01",
+          "bytes": 1980632141,
+          "sha256": "9d365e07b680d20fa9c272a04adcdacb23480c10448fd99959a03024fffe23a4",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/cache-v2/Blazing-Rebirth-Data-v2.zip.part01"
+        },
+        {
+          "name": "Blazing-Rebirth-Data-v2.zip.part02",
+          "bytes": 1980632141,
+          "sha256": "e05c86aab18041b6c0d34d46be792cfe62cb3fd247c4c33c1ec6ef1648e1a62a",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/cache-v2/Blazing-Rebirth-Data-v2.zip.part02"
+        }
+      ],
+      "published": "2026-09-27T06:01:36Z"
+    }
+  ]
+}
