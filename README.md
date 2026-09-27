@@ -21,6 +21,8 @@ Each feed holds one signed manifest per Android ABI (`update-x86_64.json`, `upda
 
 Builds reach Stable only after they were published to Beta.
 
+Update checks need launcher 29 or later on Android 9 and 10 (earlier launchers switched them off there, "archive-signer"); install 29 once by hand on such phones. Android 11 and later can update from launcher 27.
+
 ## Game data caches
 
 Each cache is a ZIP split into raw byte segments below GitHub's 2 GiB asset limit. Joining `.part01`, `.part02`, … in order restores the exact archive; `cache-v<N>.json` pins every part and the whole archive by size and SHA-256. The content version is the `N` in `cache-v<N>`.
