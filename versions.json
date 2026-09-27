@@ -2,25 +2,25 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-27T19:49:11Z",
+  "updated": "2026-09-27T20:17:11Z",
   "channels": {
     "stable": null,
     "beta": {
-      "installerVersion": 30,
-      "displayVersion": "0.24-history-rc",
-      "tag": "launcher-v30-beta",
+      "installerVersion": 31,
+      "displayVersion": "0.24.1-history-rc",
+      "tag": "launcher-v31-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-27T19:49:11Z",
+      "signed": "2026-09-27T20:17:11Z",
       "manifests": {
         "x86_64": {
-          "sequence": 5,
-          "expiresUtc": 1800906546,
-          "payloadSha256": "dcc4221242cde40b1acd4af30fdfe39a3f245d87271d10f85a91fea40325c22d"
+          "sequence": 7,
+          "expiresUtc": 1800908227,
+          "payloadSha256": "088395f4ed749b9f1b0397bb71c89f6e0aea3348b159ecbbe0348d688313fd21"
         },
         "arm64-v8a": {
-          "sequence": 6,
-          "expiresUtc": 1800906549,
-          "payloadSha256": "953fa9b52123206f15a114b5836c8d5b2180e3810cde8c69d024da5f066e0ec2"
+          "sequence": 8,
+          "expiresUtc": 1800908229,
+          "payloadSha256": "baf3aa355077886c9423e3b6367aa1a5bcb56acda4e089c0f4e75e7bc6950302"
         }
       }
     }
@@ -114,6 +114,36 @@
       "notes": "Installer 30 (0.24-history-rc): when a newer version is out, the launcher asks as it opens (Update now, Later, or Skip this version; turn the question off in Updates). Release history replaces What's new: every version with its changes, and Revert to an earlier version with the same game runtime and game data (saves and game data are kept). Copy the debug log, launcher log or version info to the clipboard; About shows the version and channel; the Appearance section is removed and Back returns to Home.",
       "published": {
         "beta": "2026-09-27T19:49:11Z"
+      }
+    },
+    {
+      "installerVersion": 31,
+      "displayVersion": "0.24.1-history-rc",
+      "gameVersion": 121,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v31-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 178228526,
+          "sha256": "4066d453b5552791eee57ab2a90ee6eb0d3f05e34e4ead21fd8f15a4711398cf"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 178102546,
+          "sha256": "71583ca8f4d453c4bd34ef596a657021844a7eb054cda60d09b8dfe2331940fe"
+        }
+      },
+      "notes": "Installer 31 (0.24.1-history-rc), test release for the update prompt. Fixes Revert and update checks that stopped with 'Update failed safely' (Android refused network work on the screen thread when an HTTP response was cut short or missing). Unexpected update errors now name their type in the message and the debug log. Includes installer 30: update prompt on open (Update now / Later / Skip this version), release history with revert, copy to clipboard, version in About, Appearance removed.",
+      "published": {
+        "beta": "2026-09-27T20:17:11Z"
       }
     }
   ],
