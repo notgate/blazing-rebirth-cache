@@ -2,25 +2,25 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-28T00:30:37Z",
+  "updated": "2026-09-28T02:53:50Z",
   "channels": {
     "stable": null,
     "beta": {
-      "installerVersion": 35,
-      "displayVersion": "0.25-tutorial-rc",
-      "tag": "launcher-v35-beta",
+      "installerVersion": 36,
+      "displayVersion": "0.26-news-rc",
+      "tag": "launcher-v36-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-28T00:30:37Z",
+      "signed": "2026-09-28T02:53:50Z",
       "manifests": {
         "x86_64": {
-          "sequence": 15,
-          "expiresUtc": 1800923433,
-          "payloadSha256": "6026bcfc15f93c0eb65377df1228dc3ff05dfcfe0b1c491cc6ebc2c59fbb441b"
+          "sequence": 17,
+          "expiresUtc": 1800932026,
+          "payloadSha256": "69bc60f764526502a9428a11ae6a80175e986d637bbe3de6d635d8a2d185c28c"
         },
         "arm64-v8a": {
-          "sequence": 16,
-          "expiresUtc": 1800923435,
-          "payloadSha256": "be7afba0cd21afc65072370c5d968449a19a7bd110174088a9046bf0b14d2281"
+          "sequence": 18,
+          "expiresUtc": 1800932028,
+          "payloadSha256": "386eb1b64642334ffbd2392f97d3ead03240bd610a69495d927a1989ce39b75f"
         }
       }
     }
@@ -234,6 +234,36 @@
       "notes": "New Vanilla saves play the stock tutorial; a one-time 1,000-pearl welcome gift in the Gift Box; summon banners rotate every launch in both profiles with their original art; All Characters summon always on; Release history Show more.",
       "published": {
         "beta": "2026-09-28T00:30:37Z"
+      }
+    },
+    {
+      "installerVersion": 36,
+      "displayVersion": "0.26-news-rc",
+      "gameVersion": 121,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v36-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 180800814,
+          "sha256": "6efbed2323afcb74ea48123be21b0e0bd2daead6f295565cd0b04b3b00329318"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 180674834,
+          "sha256": "21a375bc09a32336e7d35421dcfab28ce01cd431af7db693e018288465d3c66a"
+        }
+      },
+      "notes": "No-entry badges removed from character portraits; native News (Important Notice and Event Information) in the original design; daily trials reset at local midnight with 7-day claims; Recovery Summon removed.",
+      "published": {
+        "beta": "2026-09-28T02:53:50Z"
       }
     }
   ],
