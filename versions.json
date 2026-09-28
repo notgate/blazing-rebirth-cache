@@ -2,25 +2,25 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-28T02:53:50Z",
+  "updated": "2026-09-28T05:05:35Z",
   "channels": {
     "stable": null,
     "beta": {
-      "installerVersion": 36,
-      "displayVersion": "0.26-news-rc",
-      "tag": "launcher-v36-beta",
+      "installerVersion": 37,
+      "displayVersion": "0.26.1-news-rc",
+      "tag": "launcher-v37-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-28T02:53:50Z",
+      "signed": "2026-09-28T05:05:35Z",
       "manifests": {
         "x86_64": {
-          "sequence": 17,
-          "expiresUtc": 1800932026,
-          "payloadSha256": "69bc60f764526502a9428a11ae6a80175e986d637bbe3de6d635d8a2d185c28c"
+          "sequence": 19,
+          "expiresUtc": 1800939930,
+          "payloadSha256": "f63bf709be85994c8ee1091e2ff3f2c7321ae6c6aeee4ddf0bd311f35918f8c3"
         },
         "arm64-v8a": {
-          "sequence": 18,
-          "expiresUtc": 1800932028,
-          "payloadSha256": "386eb1b64642334ffbd2392f97d3ead03240bd610a69495d927a1989ce39b75f"
+          "sequence": 20,
+          "expiresUtc": 1800939933,
+          "payloadSha256": "8f162738e9c63d6299a862e267160891c3e85694316ca0d7b8d15218bbd67085"
         }
       }
     }
@@ -264,6 +264,36 @@
       "notes": "No-entry badges removed from character portraits; native News (Important Notice and Event Information) in the original design; daily trials reset at local midnight with 7-day claims; Recovery Summon removed.",
       "published": {
         "beta": "2026-09-28T02:53:50Z"
+      }
+    },
+    {
+      "installerVersion": 37,
+      "displayVersion": "0.26.1-news-rc",
+      "gameVersion": 121,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v37-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 180858158,
+          "sha256": "029ec0dd6e7edde5a3972cd5bd9045014c71ec92a3dce3a4f2ec5bf64ad28af4"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 180732178,
+          "sha256": "3dcd3ef3c1d75ec92734563a8d33cbdafc3d6be199aaf31b9f83acb8253f0070"
+        }
+      },
+      "notes": "Hotfix: fixes the Communication error on the tutorial's Captain Exam and 128 other restored battles; original Captain Exam banner.",
+      "published": {
+        "beta": "2026-09-28T05:05:35Z"
       }
     }
   ],
