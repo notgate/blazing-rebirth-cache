@@ -7,12 +7,13 @@ Generated from [`versions.json`](versions.json) by `source/tools/publisher/relea
 | Channel | Launcher | Version name | Release | Content | Feed signed |
 | --- | --- | --- | --- | --- | --- |
 | stable | none yet | | | | |
-| beta | 37 | 0.26.1-news-rc | [launcher-v37-beta](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v37-beta) | 2 | 2026-09-28 |
+| beta | 38 | 0.27-grind-rc | [launcher-v38-beta](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v38-beta) | 2 | 2026-09-29 |
 
 ## Launcher builds
 
 | Launcher | Version name | Runtime | Content | Channels | x86_64 SHA-256 | arm64-v8a SHA-256 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 38 | 0.27-grind-rc | 122 | 2 | beta | `1bb61e23271f93d9…` | `394c0f8091871d29…` |
 | 37 | 0.26.1-news-rc | 121 | 2 | beta | `029ec0dd6e7edde5…` | `3dcd3ef3c1d75ec9…` |
 | 36 | 0.26-news-rc | 121 | 2 | beta | `6efbed2323afcb74…` | `21a375bc09a32336…` |
 | 35 | 0.25-tutorial-rc | 121 | 2 | beta | `7734e30aa3e2fbf4…` | `e0135a546244681e…` |
