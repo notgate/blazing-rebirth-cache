@@ -2,25 +2,25 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-28T05:05:35Z",
+  "updated": "2026-09-29T12:29:09Z",
   "channels": {
     "stable": null,
     "beta": {
-      "installerVersion": 37,
-      "displayVersion": "0.26.1-news-rc",
-      "tag": "launcher-v37-beta",
+      "installerVersion": 38,
+      "displayVersion": "0.27-grind-rc",
+      "tag": "launcher-v38-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-28T05:05:35Z",
+      "signed": "2026-09-29T12:29:09Z",
       "manifests": {
         "x86_64": {
-          "sequence": 19,
-          "expiresUtc": 1800939930,
-          "payloadSha256": "f63bf709be85994c8ee1091e2ff3f2c7321ae6c6aeee4ddf0bd311f35918f8c3"
+          "sequence": 21,
+          "expiresUtc": 1801052943,
+          "payloadSha256": "bd527458ad7b7fe5eebed12abb6e228a0c7be2b4fcf6425a9dfe4d9897cab257"
         },
         "arm64-v8a": {
-          "sequence": 20,
-          "expiresUtc": 1800939933,
-          "payloadSha256": "8f162738e9c63d6299a862e267160891c3e85694316ca0d7b8d15218bbd67085"
+          "sequence": 22,
+          "expiresUtc": 1801052947,
+          "payloadSha256": "c8d150c2f9d8a10b42c7a348ce53e0737c75be011be7d77f769d9854dbf380b1"
         }
       }
     }
@@ -294,6 +294,36 @@
       "notes": "Hotfix: fixes the Communication error on the tutorial's Captain Exam and 128 other restored battles; original Captain Exam banner.",
       "published": {
         "beta": "2026-09-28T05:05:35Z"
+      }
+    },
+    {
+      "installerVersion": 38,
+      "displayVersion": "0.27-grind-rc",
+      "gameVersion": 122,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v38-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 437411345,
+          "sha256": "1bb61e23271f93d98f4fb226615485a18343dedfa9e67210680c7d9569b53d29"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 437285365,
+          "sha256": "394c0f8091871d2978c2b1b5647437ca49c2794f08c8254dcb946bbb9888bfee"
+        }
+      },
+      "notes": "Installer 38: Android 15/16 fix, fairer summons and many bug fixes.\n- Fixes the crash while loading on Android 15/16 phones (game runtime 122: after updating, tap Fix, then Install; your progress is kept).\n- Summons: 5 stars or better 12% with one in every 10-pull; featured units are half of their tier; themed banners give only their featured 6 stars; the Blazing Festival step-up guarantees Naruto on step 9 and loops back to 1/9.\n- 43 genuine banners rotate, 3 per launch, in a different order for each account.\n- Fixes Begin Skip, the Ninja Road start error, and the Communication error on limit break, locking, awakening and enhancing (a declined enhance now shows a message instead).\n- Fixes the 1-4 Graduation cutscene and nine others; element, character-count and affiliation objectives now count for 3 stars.\n- Replays pay pearls as a Mission Clear gift, Drop Complete progresses, and Ninja Road pays its coins and stones.\n- A daily Login Bonus with pearls, Granny coins, skip tickets and Ultimate Cup ramen, plus a one-time 1,000-pearl update gift.\n- Giant Boss Rush returns, ultimate jutsu movies play again (Sakura's Team 7 cut-in among 90), and every event stage has real banner art.\n- A full box never blocks summons, your own units can help, enhance gives 300% EXP, and summons start at luck 10.",
+      "published": {
+        "beta": "2026-09-29T12:29:09Z"
       }
     }
   ],
