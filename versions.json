@@ -2,7 +2,7 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-29T14:00:41Z",
+  "updated": "2026-09-29T15:34:04Z",
   "channels": {
     "stable": null,
     "beta": {
@@ -10,17 +10,17 @@
       "displayVersion": "0.27.1-grind-rc",
       "tag": "launcher-v39-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-29T14:00:41Z",
+      "signed": "2026-09-29T15:34:04Z",
       "manifests": {
         "x86_64": {
-          "sequence": 23,
-          "expiresUtc": 1801058435,
-          "payloadSha256": "b58c9fcb9f901451875fd22d0994cc4e0bf035db2a2e6f9c15047a8d76b1e1c8"
+          "sequence": 25,
+          "expiresUtc": 1801064037,
+          "payloadSha256": "6814733f550e3a7a53e3de93d63f1550cf9d68d8eda911fe5950ab230f839018"
         },
         "arm64-v8a": {
-          "sequence": 24,
-          "expiresUtc": 1801058438,
-          "payloadSha256": "6dcf792450ae9cc046de75598dfb7f2a00bdfc3201f829b293ff9d5180a35e74"
+          "sequence": 26,
+          "expiresUtc": 1801064041,
+          "payloadSha256": "fec47d58511ad8366aba0dd5cce4f8cc043909663f62a44b8bb9c6de483c70e9"
         }
       }
     }
