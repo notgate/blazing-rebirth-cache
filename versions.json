@@ -2,25 +2,25 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-29T12:29:09Z",
+  "updated": "2026-09-29T14:00:41Z",
   "channels": {
     "stable": null,
     "beta": {
-      "installerVersion": 38,
-      "displayVersion": "0.27-grind-rc",
-      "tag": "launcher-v38-beta",
+      "installerVersion": 39,
+      "displayVersion": "0.27.1-grind-rc",
+      "tag": "launcher-v39-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-09-29T12:29:09Z",
+      "signed": "2026-09-29T14:00:41Z",
       "manifests": {
         "x86_64": {
-          "sequence": 21,
-          "expiresUtc": 1801052943,
-          "payloadSha256": "bd527458ad7b7fe5eebed12abb6e228a0c7be2b4fcf6425a9dfe4d9897cab257"
+          "sequence": 23,
+          "expiresUtc": 1801058435,
+          "payloadSha256": "b58c9fcb9f901451875fd22d0994cc4e0bf035db2a2e6f9c15047a8d76b1e1c8"
         },
         "arm64-v8a": {
-          "sequence": 22,
-          "expiresUtc": 1801052947,
-          "payloadSha256": "c8d150c2f9d8a10b42c7a348ce53e0737c75be011be7d77f769d9854dbf380b1"
+          "sequence": 24,
+          "expiresUtc": 1801058438,
+          "payloadSha256": "6dcf792450ae9cc046de75598dfb7f2a00bdfc3201f829b293ff9d5180a35e74"
         }
       }
     }
@@ -324,6 +324,36 @@
       "notes": "Installer 38: Android 15/16 fix, fairer summons and many bug fixes.\n- Fixes the crash while loading on Android 15/16 phones (game runtime 122: after updating, tap Fix, then Install; your progress is kept).\n- Summons: 5 stars or better 12% with one in every 10-pull; featured units are half of their tier; themed banners give only their featured 6 stars; the Blazing Festival step-up guarantees Naruto on step 9 and loops back to 1/9.\n- 43 genuine banners rotate, 3 per launch, in a different order for each account.\n- Fixes Begin Skip, the Ninja Road start error, and the Communication error on limit break, locking, awakening and enhancing (a declined enhance now shows a message instead).\n- Fixes the 1-4 Graduation cutscene and nine others; element, character-count and affiliation objectives now count for 3 stars.\n- Replays pay pearls as a Mission Clear gift, Drop Complete progresses, and Ninja Road pays its coins and stones.\n- A daily Login Bonus with pearls, Granny coins, skip tickets and Ultimate Cup ramen, plus a one-time 1,000-pearl update gift.\n- Giant Boss Rush returns, ultimate jutsu movies play again (Sakura's Team 7 cut-in among 90), and every event stage has real banner art.\n- A full box never blocks summons, your own units can help, enhance gives 300% EXP, and summons start at luck 10.",
       "published": {
         "beta": "2026-09-29T12:29:09Z"
+      }
+    },
+    {
+      "installerVersion": 39,
+      "displayVersion": "0.27.1-grind-rc",
+      "gameVersion": 122,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v39-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 437411345,
+          "sha256": "1c343f80643f19ea6eeb1c31eb1470ee6826286715f10835e2a343a53d0f6587"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 437285365,
+          "sha256": "7c57638fb4e6128322b4098e381a31e2bec77311a54257ebb9ea4908ce3cff7c"
+        }
+      },
+      "notes": "Hotfix for installer 38.\n- Fixes the endless loading in the Gift Box during Kakashi's Captain Exam tutorial. The 1,000-pearl update gift now arrives at the first start after the tutorial.\n- Summoned characters now arrive as a fresh copy at Level 1 with luck 10 in every profile. All data summons no longer arrive fully maxed.",
+      "published": {
+        "beta": "2026-09-29T14:00:41Z"
       }
     }
   ],
