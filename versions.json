@@ -72,6 +72,9 @@
       "notes": "Installer 27 (0.22-channels-rc): launcher updates arrive through the Beta and Stable channels; game-data updates can come with a launcher update (download the new data once afterwards, saves kept). Includes installer 26: Vanilla save slots with .blzsave export/import, harder Phantom Castle (6-7 star sync-skill teams), icons for every launcher section.",
       "published": {
         "beta": "2026-09-27T18:04:48Z"
+      },
+      "channelNotes": {
+        "beta": "Installer 27 (0.22-channels-rc): launcher updates arrive through the Beta and Stable channels; game-data updates can come with a launcher update (download the new data once afterwards, saves kept). Includes installer 26: Vanilla save slots with .blzsave export/import, harder Phantom Castle (6-7 star sync-skill teams), icons for every launcher section."
       }
     },
     {
@@ -102,6 +105,9 @@
       "notes": "Installer 29 (0.23-channels-rc): update checks now work on Android 9 and 10 (installer 27 and earlier switched them off there). Launcher updates arrive through the Beta and Stable channels; game-data updates can come with a launcher update (download the new data once afterwards, saves kept). An empty channel now says nothing is published yet. Includes installer 26: Vanilla save slots with .blzsave export/import, harder Phantom Castle (6-7 star sync-skill teams), icons for every launcher section.",
       "published": {
         "beta": "2026-09-27T18:19:22Z"
+      },
+      "channelNotes": {
+        "beta": "Installer 29 (0.23-channels-rc): update checks now work on Android 9 and 10 (installer 27 and earlier switched them off there). Launcher updates arrive through the Beta and Stable channels; game-data updates can come with a launcher update (download the new data once afterwards, saves kept). An empty channel now says nothing is published yet. Includes installer 26: Vanilla save slots with .blzsave export/import, harder Phantom Castle (6-7 star sync-skill teams), icons for every launcher section."
       }
     },
     {
@@ -132,6 +138,9 @@
       "notes": "Installer 30 (0.24-history-rc): when a newer version is out, the launcher asks as it opens (Update now, Later, or Skip this version; turn the question off in Updates). Release history replaces What's new: every version with its changes, and Revert to an earlier version with the same game runtime and game data (saves and game data are kept). Copy the debug log, launcher log or version info to the clipboard; About shows the version and channel; the Appearance section is removed and Back returns to Home.",
       "published": {
         "beta": "2026-09-27T19:49:11Z"
+      },
+      "channelNotes": {
+        "beta": "Installer 30 (0.24-history-rc): when a newer version is out, the launcher asks as it opens (Update now, Later, or Skip this version; turn the question off in Updates). Release history replaces What's new: every version with its changes, and Revert to an earlier version with the same game runtime and game data (saves and game data are kept). Copy the debug log, launcher log or version info to the clipboard; About shows the version and channel; the Appearance section is removed and Back returns to Home."
       }
     },
     {
@@ -162,6 +171,9 @@
       "notes": "Installer 31 (0.24.1-history-rc), test release for the update prompt. Fixes Revert and update checks that stopped with 'Update failed safely' (Android refused network work on the screen thread when an HTTP response was cut short or missing). Unexpected update errors now name their type in the message and the debug log. Includes installer 30: update prompt on open (Update now / Later / Skip this version), release history with revert, copy to clipboard, version in About, Appearance removed.",
       "published": {
         "beta": "2026-09-27T20:17:11Z"
+      },
+      "channelNotes": {
+        "beta": "Installer 31 (0.24.1-history-rc), test release for the update prompt. Fixes Revert and update checks that stopped with 'Update failed safely' (Android refused network work on the screen thread when an HTTP response was cut short or missing). Unexpected update errors now name their type in the message and the debug log. Includes installer 30: update prompt on open (Update now / Later / Skip this version), release history with revert, copy to clipboard, version in About, Appearance removed."
       }
     },
     {
@@ -192,6 +204,9 @@
       "notes": "Installer 33 (0.24.2-history-rc): the same launcher as installer 31, published after the revert test so that a phone on rollback build 32 (installer 30's code) is offered the current launcher again. Includes the Revert fix, the update prompt with Later and Skip, release history, copy to clipboard and the version in About.",
       "published": {
         "beta": "2026-09-27T20:37:22Z"
+      },
+      "channelNotes": {
+        "beta": "Installer 33 (0.24.2-history-rc): the same launcher as installer 31, published after the revert test so that a phone on rollback build 32 (installer 30's code) is offered the current launcher again. Includes the Revert fix, the update prompt with Later and Skip, release history, copy to clipboard and the version in About."
       }
     },
     {
@@ -222,6 +237,9 @@
       "notes": "Installer 34 (0.24.3-history-rc): copying the debug log, launcher log or version info always shows a 'Copied' message, even when you copy the same thing twice. Includes installers 30-33: the update prompt with Later and Skip, release history with revert, the Revert fix, and the version in About.",
       "published": {
         "beta": "2026-09-27T21:04:43Z"
+      },
+      "channelNotes": {
+        "beta": "Installer 34 (0.24.3-history-rc): copying the debug log, launcher log or version info always shows a 'Copied' message, even when you copy the same thing twice. Includes installers 30-33: the update prompt with Later and Skip, release history with revert, the Revert fix, and the version in About."
       }
     },
     {
@@ -252,6 +270,9 @@
       "notes": "New Vanilla saves play the stock tutorial; a one-time 1,000-pearl welcome gift in the Gift Box; summon banners rotate every launch in both profiles with their original art; All Characters summon always on; Release history Show more.",
       "published": {
         "beta": "2026-09-28T00:30:37Z"
+      },
+      "channelNotes": {
+        "beta": "New Vanilla saves play the stock tutorial; a one-time 1,000-pearl welcome gift in the Gift Box; summon banners rotate every launch in both profiles with their original art; All Characters summon always on; Release history Show more."
       }
     },
     {
@@ -282,6 +303,9 @@
       "notes": "No-entry badges removed from character portraits; native News (Important Notice and Event Information) in the original design; daily trials reset at local midnight with 7-day claims; Recovery Summon removed.",
       "published": {
         "beta": "2026-09-28T02:53:50Z"
+      },
+      "channelNotes": {
+        "beta": "No-entry badges removed from character portraits; native News (Important Notice and Event Information) in the original design; daily trials reset at local midnight with 7-day claims; Recovery Summon removed."
       }
     },
     {
@@ -312,6 +336,9 @@
       "notes": "Hotfix: fixes the Communication error on the tutorial's Captain Exam and 128 other restored battles; original Captain Exam banner.",
       "published": {
         "beta": "2026-09-28T05:05:35Z"
+      },
+      "channelNotes": {
+        "beta": "Hotfix: fixes the Communication error on the tutorial's Captain Exam and 128 other restored battles; original Captain Exam banner."
       }
     },
     {
@@ -342,6 +369,9 @@
       "notes": "Installer 38: Android 15/16 fix, fairer summons and many bug fixes.\n- Fixes the crash while loading on Android 15/16 phones (game runtime 122: after updating, tap Fix, then Install; your progress is kept).\n- Summons: 5 stars or better 12% with one in every 10-pull; featured units are half of their tier; themed banners give only their featured 6 stars; the Blazing Festival step-up guarantees Naruto on step 9 and loops back to 1/9.\n- 43 genuine banners rotate, 3 per launch, in a different order for each account.\n- Fixes Begin Skip, the Ninja Road start error, and the Communication error on limit break, locking, awakening and enhancing (a declined enhance now shows a message instead).\n- Fixes the 1-4 Graduation cutscene and nine others; element, character-count and affiliation objectives now count for 3 stars.\n- Replays pay pearls as a Mission Clear gift, Drop Complete progresses, and Ninja Road pays its coins and stones.\n- A daily Login Bonus with pearls, Granny coins, skip tickets and Ultimate Cup ramen, plus a one-time 1,000-pearl update gift.\n- Giant Boss Rush returns, ultimate jutsu movies play again (Sakura's Team 7 cut-in among 90), and every event stage has real banner art.\n- A full box never blocks summons, your own units can help, enhance gives 300% EXP, and summons start at luck 10.",
       "published": {
         "beta": "2026-09-29T12:29:09Z"
+      },
+      "channelNotes": {
+        "beta": "Installer 38: Android 15/16 fix, fairer summons and many bug fixes.\n- Fixes the crash while loading on Android 15/16 phones (game runtime 122: after updating, tap Fix, then Install; your progress is kept).\n- Summons: 5 stars or better 12% with one in every 10-pull; featured units are half of their tier; themed banners give only their featured 6 stars; the Blazing Festival step-up guarantees Naruto on step 9 and loops back to 1/9.\n- 43 genuine banners rotate, 3 per launch, in a different order for each account.\n- Fixes Begin Skip, the Ninja Road start error, and the Communication error on limit break, locking, awakening and enhancing (a declined enhance now shows a message instead).\n- Fixes the 1-4 Graduation cutscene and nine others; element, character-count and affiliation objectives now count for 3 stars.\n- Replays pay pearls as a Mission Clear gift, Drop Complete progresses, and Ninja Road pays its coins and stones.\n- A daily Login Bonus with pearls, Granny coins, skip tickets and Ultimate Cup ramen, plus a one-time 1,000-pearl update gift.\n- Giant Boss Rush returns, ultimate jutsu movies play again (Sakura's Team 7 cut-in among 90), and every event stage has real banner art.\n- A full box never blocks summons, your own units can help, enhance gives 300% EXP, and summons start at luck 10."
       }
     },
     {
@@ -374,6 +404,10 @@
       "published": {
         "beta": "2026-09-29T14:00:41Z",
         "stable": "2026-10-01T00:11:31Z"
+      },
+      "channelNotes": {
+        "beta": "Hotpatch 39 (0.27.1-grind-rc) for installer 38.\n- Fixed: the Gift Box loaded forever during Kakashi's Captain Exam tutorial. The 1,000-pearl update gift now arrives at the first start after the tutorial.\n- Fixed: summons in the All data profile arrived fully maxed. Every summon now gives a fresh Level 1 character with luck 10, in both profiles.\n- Coming from installer 37? After updating, tap Fix, then Install, to get the Android 15/16 fix (game runtime 122). Your progress is kept.",
+        "stable": "Installer 39 (0.27.1-grind-rc) is now the stable release.\n- Fixes the crash while loading on Android 15/16 phones (game runtime 122: after updating, tap Fix, then Install; your progress is kept).\n- Fairer summons: 5 stars or better 12% with one in every 10-pull; themed banners give only their featured 6 stars; the Blazing Festival step-up guarantees Naruto on step 9 and loops back.\n- 43 genuine banners rotate in a different order for each account, and every event stage has real banner art.\n- A daily Login Bonus, Giant Boss Rush, ultimate jutsu movies, and pearls on every replay.\n- Fixes Begin Skip, Ninja Road starts, story cutscenes, 3-star objectives, and the Communication error on limit break, locking, awakening and enhancing.\n- Summons give a fresh Level 1 character with luck 10, and the tutorial's Gift Box no longer loads forever."
       }
     },
     {
@@ -404,6 +438,9 @@
       "notes": "Installer 40 (0.28-teams-rc): teams, My Helper, 3x speed and fixes.\n- Battle speed cycles 1x, 2x and 3x, and the button shows x2 and x3 (game runtime 124: after updating, tap Fix, then Install; your progress is kept).\n- Team Setup has 7 teams: switch with the arrows, and the team you pick is the one that fights.\n- Select A Helper shows just My Helper (your Helper Setting unit or your strongest), and drop luck counts your three front-row units.\n- Phantom Castle: a daily Reset Progress bar on the Castle screen, and Castle stamina refills with 1 Ninja Pearl.\n- A full character box offers Expand (1 pearl = 5 slots) or Sell units, and Shop > Expand Character List adds slots you can see.\n- Fixes the Present Box loading forever on some phone languages; buying pearls no longer sends you to the title.\n- 12 more original summon banners, and the 4th Anniversary Naruto and Sasuke banners are always open.\n- The launcher ends the session by itself when the game exits; your save is kept.",
       "published": {
         "beta": "2026-10-01T01:05:05Z"
+      },
+      "channelNotes": {
+        "beta": "Installer 40 (0.28-teams-rc): teams, My Helper, 3x speed and fixes.\n- Battle speed cycles 1x, 2x and 3x, and the button shows x2 and x3 (game runtime 124: after updating, tap Fix, then Install; your progress is kept).\n- Team Setup has 7 teams: switch with the arrows, and the team you pick is the one that fights.\n- Select A Helper shows just My Helper (your Helper Setting unit or your strongest), and drop luck counts your three front-row units.\n- Phantom Castle: a daily Reset Progress bar on the Castle screen, and Castle stamina refills with 1 Ninja Pearl.\n- A full character box offers Expand (1 pearl = 5 slots) or Sell units, and Shop > Expand Character List adds slots you can see.\n- Fixes the Present Box loading forever on some phone languages; buying pearls no longer sends you to the title.\n- 12 more original summon banners, and the 4th Anniversary Naruto and Sasuke banners are always open.\n- The launcher ends the session by itself when the game exits; your save is kept."
       }
     },
     {
