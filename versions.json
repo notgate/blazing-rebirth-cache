@@ -2,7 +2,7 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-10-01T01:05:05Z",
+  "updated": "2026-10-01T05:50:51Z",
   "channels": {
     "stable": {
       "installerVersion": 39,
@@ -24,21 +24,21 @@
       }
     },
     "beta": {
-      "installerVersion": 40,
-      "displayVersion": "0.28-teams-rc",
-      "tag": "launcher-v40-beta",
+      "installerVersion": 41,
+      "displayVersion": "0.28.1-teams-rc",
+      "tag": "launcher-v41-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-10-01T01:05:05Z",
+      "signed": "2026-10-01T05:50:51Z",
       "manifests": {
         "x86_64": {
-          "sequence": 31,
-          "expiresUtc": 1801184699,
-          "payloadSha256": "50e72763c33b804c9f7a05a363d44299da19064eed01abfd200545b291a7a3f5"
+          "sequence": 33,
+          "expiresUtc": 1801201845,
+          "payloadSha256": "c8367b270276a37c0fb2ae58c796c72f937c707fc745fb06a24bf134f2fc6221"
         },
         "arm64-v8a": {
-          "sequence": 32,
-          "expiresUtc": 1801184702,
-          "payloadSha256": "1f4cb7e1558f23ebb5b22ddaa38f16d115461420276247ac162854f51feece18"
+          "sequence": 34,
+          "expiresUtc": 1801201848,
+          "payloadSha256": "23e14fc93e0505b86a7f8bf70c8556a80e3ba9ca4ba1f4042cd39f4d8cbd382d"
         }
       }
     }
@@ -404,6 +404,39 @@
       "notes": "Installer 40 (0.28-teams-rc): teams, My Helper, 3x speed and fixes.\n- Battle speed cycles 1x, 2x and 3x, and the button shows x2 and x3 (game runtime 124: after updating, tap Fix, then Install; your progress is kept).\n- Team Setup has 7 teams: switch with the arrows, and the team you pick is the one that fights.\n- Select A Helper shows just My Helper (your Helper Setting unit or your strongest), and drop luck counts your three front-row units.\n- Phantom Castle: a daily Reset Progress bar on the Castle screen, and Castle stamina refills with 1 Ninja Pearl.\n- A full character box offers Expand (1 pearl = 5 slots) or Sell units, and Shop > Expand Character List adds slots you can see.\n- Fixes the Present Box loading forever on some phone languages; buying pearls no longer sends you to the title.\n- 12 more original summon banners, and the 4th Anniversary Naruto and Sasuke banners are always open.\n- The launcher ends the session by itself when the game exits; your save is kept.",
       "published": {
         "beta": "2026-10-01T01:05:05Z"
+      }
+    },
+    {
+      "installerVersion": 41,
+      "displayVersion": "0.28.1-teams-rc",
+      "gameVersion": 124,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v41-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 441761382,
+          "sha256": "5f32e89e5cf832aafb577fb5d5957c2116ed577855db96458909eb80cefcbeee"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 441635402,
+          "sha256": "bf55a777b423cf2ad7a693ecac76535a9a83be33f124a22b392dd15bb0e306bc"
+        }
+      },
+      "notes": "Hotfix 41 (0.28.1-teams-rc) for installer 40.\n- Fixed: \"That Summon has not been released yet.\" on listed summon banners such as Kaguya and Nagato. Every banner you can see can be summoned now, also after the game was reopened.\n- Every summon banner was checked: its rates page, single and 10-summons, and that characters come from its own pool.\n- Compensation in your Gift Box, once per save: 500 Ninja Pearls, 5 4th Anniv. Ultimate Blazing Bash Summon Tickets and 5 5 Star Guaranteed Ultimate Blazing Bash Summon Tickets. Use the tickets on the 4th Anniversary Ticket Ultimate Blazing Bash summon.\n- Updates > Release history now shows the releases of the channel you selected (Stable or Beta) with that channel's notes.\n- Coming from installer 39 or older? After updating, tap Fix, then Install, to get game runtime 124 (3x battle speed). Your progress is kept.",
+      "published": {
+        "beta": "2026-10-01T05:50:51Z"
+      },
+      "channelNotes": {
+        "beta": "Hotfix 41 (0.28.1-teams-rc) for installer 40.\n- Fixed: \"That Summon has not been released yet.\" on listed summon banners such as Kaguya and Nagato. Every banner you can see can be summoned now, also after the game was reopened.\n- Every summon banner was checked: its rates page, single and 10-summons, and that characters come from its own pool.\n- Compensation in your Gift Box, once per save: 500 Ninja Pearls, 5 4th Anniv. Ultimate Blazing Bash Summon Tickets and 5 5 Star Guaranteed Ultimate Blazing Bash Summon Tickets. Use the tickets on the 4th Anniversary Ticket Ultimate Blazing Bash summon.\n- Updates > Release history now shows the releases of the channel you selected (Stable or Beta) with that channel's notes.\n- Coming from installer 39 or older? After updating, tap Fix, then Install, to get game runtime 124 (3x battle speed). Your progress is kept."
       }
     }
   ],
