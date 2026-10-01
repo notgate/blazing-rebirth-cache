@@ -2,9 +2,27 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-09-29T15:34:04Z",
+  "updated": "2026-10-01T00:11:31Z",
   "channels": {
-    "stable": null,
+    "stable": {
+      "installerVersion": 39,
+      "displayVersion": "0.27.1-grind-rc",
+      "tag": "launcher-v39",
+      "feedTag": "apk-updates",
+      "signed": "2026-10-01T00:11:31Z",
+      "manifests": {
+        "x86_64": {
+          "sequence": 29,
+          "expiresUtc": 1801181476,
+          "payloadSha256": "5018bced2ca176db2536317fc29a136da0f38306e60715f9936be3773844ac26"
+        },
+        "arm64-v8a": {
+          "sequence": 30,
+          "expiresUtc": 1801181479,
+          "payloadSha256": "41afcd7af92b09ad7468bd362c29562206912203b64c53343dca7a24d7c904a4"
+        }
+      }
+    },
     "beta": {
       "installerVersion": 39,
       "displayVersion": "0.27.1-grind-rc",
@@ -337,7 +355,8 @@
         4096
       ],
       "releases": {
-        "beta": "launcher-v39-beta"
+        "beta": "launcher-v39-beta",
+        "stable": "launcher-v39"
       },
       "apks": {
         "x86_64": {
@@ -353,7 +372,8 @@
       },
       "notes": "Hotfix for installer 38.\n- Fixes the endless loading in the Gift Box during Kakashi's Captain Exam tutorial. The 1,000-pearl update gift now arrives at the first start after the tutorial.\n- Summoned characters now arrive as a fresh copy at Level 1 with luck 10 in every profile. All data summons no longer arrive fully maxed.",
       "published": {
-        "beta": "2026-09-29T14:00:41Z"
+        "beta": "2026-09-29T14:00:41Z",
+        "stable": "2026-10-01T00:11:31Z"
       }
     }
   ],
