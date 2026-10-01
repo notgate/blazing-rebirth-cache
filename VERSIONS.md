@@ -6,14 +6,14 @@ Generated from [`versions.json`](versions.json) by `source/tools/publisher/relea
 
 | Channel | Launcher | Version name | Release | Content | Feed signed |
 | --- | --- | --- | --- | --- | --- |
-| stable | none yet | | | | |
+| stable | 39 | 0.27.1-grind-rc | [launcher-v39](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v39) | 2 | 2026-10-01 |
 | beta | 39 | 0.27.1-grind-rc | [launcher-v39-beta](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v39-beta) | 2 | 2026-09-29 |
 
 ## Launcher builds
 
 | Launcher | Version name | Runtime | Content | Channels | x86_64 SHA-256 | arm64-v8a SHA-256 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 39 | 0.27.1-grind-rc | 122 | 2 | beta | `1c343f80643f19ea…` | `7c57638fb4e61283…` |
+| 39 | 0.27.1-grind-rc | 122 | 2 | beta, stable | `1c343f80643f19ea…` | `7c57638fb4e61283…` |
 | 38 | 0.27-grind-rc | 122 | 2 | beta | `1bb61e23271f93d9…` | `394c0f8091871d29…` |
 | 37 | 0.26.1-news-rc | 121 | 2 | beta | `029ec0dd6e7edde5…` | `3dcd3ef3c1d75ec9…` |
 | 36 | 0.26-news-rc | 121 | 2 | beta | `6efbed2323afcb74…` | `21a375bc09a32336…` |
