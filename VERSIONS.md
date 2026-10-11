@@ -35,6 +35,14 @@ A rollback build is an older launcher repackaged with a higher installer version
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 32 | 30 | 0.24-history-rc | 121 | 2 | [launcher-v32-rollback](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v32-rollback) | `rollback-30-<abi>.json` | `5d50aebaf3b4ee14…` | `e0b4861f4b0e6272…` |
 
+## iOS (one channel)
+
+The iPhone app checks the signed feed [`ios-updates/update-ios.json`](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-updates) itself.
+
+| Release | App build | Data version | Rollback of | Notes |
+| --- | --- | --- | --- | --- |
+| 1 | [1](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-app-v1) | [1](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-data-v1) |  | First iOS offline release: the app downloads its data from GitHub and updates it |
+
 ## Game data caches
 
 | Content | Release | Archive | Size | Parts | SHA-256 |
