@@ -42,6 +42,7 @@ The iPhone app checks the signed feed [`ios-updates/update-ios.json`](https://gi
 
 | Release | App build | Data version | Rollback of | Notes |
 | --- | --- | --- | --- | --- |
+| 6 | [6](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-app-v6) | [2](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-data-v2) |  | iOS build 6 repairs Auto Awaken and Craft All tap binding to the live Awaken eve |
 | 5 | [5](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-app-v5) | [2](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-data-v2) |  | iOS build 5 fixes Fill Ramen on the active Enhance page, spaces Auto Awaken like |
 | 4 | [4](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-app-v4) | [2](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-data-v2) |  | iOS fixes: remove stray unit-tab symbols and update selection on the first tap;  |
 | 3 | [3](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-app-v3) | [2](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-data-v2) |  | Fix iOS crash when entering from the title screen; correct Unit Navigation hook  |
