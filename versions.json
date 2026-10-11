@@ -578,9 +578,9 @@
     "bundleId": "dev.blazingrebirth.ios",
     "feedTag": "ios-updates",
     "current": {
-      "release": 1,
-      "sequence": 35,
-      "signed": "2026-10-11T15:37:08Z"
+      "release": 2,
+      "sequence": 36,
+      "signed": "2026-10-11T16:33:58Z"
     },
     "apps": [
       {
@@ -596,6 +596,20 @@
         },
         "rollbackOf": null,
         "published": "2026-10-09T02:16:37Z"
+      },
+      {
+        "build": 2,
+        "tag": "ios-app-v2",
+        "fingerprint": "03ac49880585978597e565c2f8cbcdeff5bde61f14037cadf910843be74118c9",
+        "notes": "Auto Loop for completed missions: skip scenes, claim rewards, restart continuously, and use one Ninja Pearl to continue after a defeat when available. Includes native unit management quality-of-life controls and offline data updates.",
+        "ipa": {
+          "name": "Blazing-Rebirth-iOS-b2.ipa",
+          "bytes": 229067843,
+          "sha256": "e8c2add957a684927876ec208da3861a9dc1402f6bb089ba4b9e55971b53d2c4",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-app-v2/Blazing-Rebirth-iOS-b2.ipa"
+        },
+        "rollbackOf": null,
+        "published": "2026-10-11T15:28:13Z"
       }
     ],
     "data": [
@@ -632,6 +646,49 @@
         "deltas": [],
         "rollbackOf": null,
         "published": "2026-10-09T02:18:11Z"
+      },
+      {
+        "version": 2,
+        "tag": "ios-data-v2",
+        "id": "31586febfa43bf8b89dd5f8529f9964ef433e09cbb07ab26b3afd1a8b7d61c42",
+        "minAppBuild": 2,
+        "archive": {
+          "name": "Blazing-Rebirth-iOS-Data-v2.zip",
+          "bytes": 3512941363,
+          "sha256": "130cc972708ea22ad27a147502ddc3db387b54a5af5cd230286271a1bc092567"
+        },
+        "parts": [
+          {
+            "name": "Blazing-Rebirth-iOS-Data-v2.zip.part01",
+            "bytes": 1756470682,
+            "sha256": "1f5afbdc463342569cd8a90c81c38af9dfb34f56010eeefd147ae8a554255873",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v2/Blazing-Rebirth-iOS-Data-v2.zip.part01"
+          },
+          {
+            "name": "Blazing-Rebirth-iOS-Data-v2.zip.part02",
+            "bytes": 1756470681,
+            "sha256": "feee63fe4ebb66a142e4d2e22d05e016cdebb4ff18d51da063fb737b5f303875",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v2/Blazing-Rebirth-iOS-Data-v2.zip.part02"
+          }
+        ],
+        "listing": {
+          "name": "Blazing-Rebirth-iOS-Data-v2.files.json",
+          "bytes": 1402829,
+          "sha256": "1320ede7d94f6078a8a234705ef1d65f8b01d7ad5ca0a92a0b4bfdf33c6e04ed",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v2/Blazing-Rebirth-iOS-Data-v2.files.json"
+        },
+        "deltas": [
+          {
+            "from": 1,
+            "fromId": "451504a8c87055b56f2730f8ba33199ab8577c479c876d234868571cec8707de",
+            "name": "Blazing-Rebirth-iOS-Data-v2-from-v1.delta.zip",
+            "bytes": 29191711,
+            "sha256": "f1f9db1d8af337876e4ed33200916d8a6b3b5f530b16366e5ec60fd7c1dbfe6e",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v2/Blazing-Rebirth-iOS-Data-v2-from-v1.delta.zip"
+          }
+        ],
+        "rollbackOf": null,
+        "published": "2026-10-11T15:29:21Z"
       }
     ],
     "releases": [
@@ -645,6 +702,17 @@
         "rollbackOf": null,
         "sequence": 35,
         "published": "2026-10-09T02:18:11Z"
+      },
+      {
+        "release": 2,
+        "app": 2,
+        "data": 2,
+        "notes": "Auto Loop for completed missions: skip scenes, claim rewards, restart continuously, and use one Ninja Pearl to continue after a defeat when available. Includes native unit management quality-of-life controls and offline data updates.",
+        "required": false,
+        "why": "",
+        "rollbackOf": null,
+        "sequence": 36,
+        "published": "2026-10-11T15:29:21Z"
       }
     ]
   }
