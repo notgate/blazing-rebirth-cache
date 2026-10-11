@@ -614,9 +614,9 @@
     "bundleId": "dev.blazingrebirth.ios",
     "feedTag": "ios-updates",
     "current": {
-      "release": 3,
-      "sequence": 41,
-      "signed": "2026-10-11T17:14:34Z"
+      "release": 4,
+      "sequence": 42,
+      "signed": "2026-10-11T17:44:56Z"
     },
     "apps": [
       {
@@ -660,6 +660,20 @@
         },
         "rollbackOf": null,
         "published": "2026-10-11T17:12:32Z"
+      },
+      {
+        "build": 4,
+        "tag": "ios-app-v4",
+        "fingerprint": "c6b0e5f26b69ba0f1bb67f084f83c623523649b97711e0b422ba8d2f90359f43",
+        "notes": "iOS fixes: remove stray unit-tab symbols and update selection on the first tap; add Fill Ramen preview and Auto Awaken; Auto Loop advances the defeat confirmation and uses one Ninja Pearl through the stock Continue flow when available. Game data and saves unchanged.",
+        "ipa": {
+          "name": "Blazing-Rebirth-iOS-b4.ipa",
+          "bytes": 229071048,
+          "sha256": "fd290947b859fb36ac06f0ed11a93d1d70d8e67571e48f4a628b9cbe876f3da3",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-app-v4/Blazing-Rebirth-iOS-b4.ipa"
+        },
+        "rollbackOf": null,
+        "published": "2026-10-11T17:43:20Z"
       }
     ],
     "data": [
@@ -774,6 +788,17 @@
         "rollbackOf": null,
         "sequence": 41,
         "published": "2026-10-11T17:12:32Z"
+      },
+      {
+        "release": 4,
+        "app": 4,
+        "data": 2,
+        "notes": "iOS fixes: remove stray unit-tab symbols and update selection on the first tap; add Fill Ramen preview and Auto Awaken; Auto Loop advances the defeat confirmation and uses one Ninja Pearl through the stock Continue flow when available. Game data and saves unchanged.",
+        "required": false,
+        "why": "",
+        "rollbackOf": null,
+        "sequence": 42,
+        "published": "2026-10-11T17:43:20Z"
       }
     ]
   }
