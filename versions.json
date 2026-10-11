@@ -614,9 +614,9 @@
     "bundleId": "dev.blazingrebirth.ios",
     "feedTag": "ios-updates",
     "current": {
-      "release": 5,
-      "sequence": 43,
-      "signed": "2026-10-11T20:05:08Z"
+      "release": 6,
+      "sequence": 44,
+      "signed": "2026-10-11T22:26:57Z"
     },
     "apps": [
       {
@@ -688,6 +688,20 @@
         },
         "rollbackOf": null,
         "published": "2026-10-11T20:03:17Z"
+      },
+      {
+        "build": 6,
+        "tag": "ios-app-v6",
+        "fingerprint": "6b0304e57812478ea287c1ea62a67dc7c830373f233ed4730d24ff5d27b1f8e6",
+        "notes": "iOS build 6 repairs Auto Awaken and Craft All tap binding to the live Awaken event; missing requirements show feedback. The Updates screen now explains that app IPA installation needs the player's signing tool. Game data and saves unchanged.",
+        "ipa": {
+          "name": "Blazing-Rebirth-iOS-b6.ipa",
+          "bytes": 229109142,
+          "sha256": "238dbd361af4a92b3d5cd4669a48da4b04fe6b6bc853cd8f0e6022b5eb75a860",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-app-v6/Blazing-Rebirth-iOS-b6.ipa"
+        },
+        "rollbackOf": null,
+        "published": "2026-10-11T22:25:10Z"
       }
     ],
     "data": [
@@ -824,6 +838,17 @@
         "rollbackOf": null,
         "sequence": 43,
         "published": "2026-10-11T20:03:17Z"
+      },
+      {
+        "release": 6,
+        "app": 6,
+        "data": 2,
+        "notes": "iOS build 6 repairs Auto Awaken and Craft All tap binding to the live Awaken event; missing requirements show feedback. The Updates screen now explains that app IPA installation needs the player's signing tool. Game data and saves unchanged.",
+        "required": false,
+        "why": "",
+        "rollbackOf": null,
+        "sequence": 44,
+        "published": "2026-10-11T22:25:10Z"
       }
     ]
   }
