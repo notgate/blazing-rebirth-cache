@@ -614,9 +614,9 @@
     "bundleId": "dev.blazingrebirth.ios",
     "feedTag": "ios-updates",
     "current": {
-      "release": 2,
-      "sequence": 36,
-      "signed": "2026-10-11T16:33:58Z"
+      "release": 3,
+      "sequence": 41,
+      "signed": "2026-10-11T17:14:34Z"
     },
     "apps": [
       {
@@ -646,6 +646,20 @@
         },
         "rollbackOf": null,
         "published": "2026-10-11T15:28:13Z"
+      },
+      {
+        "build": 3,
+        "tag": "ios-app-v3",
+        "fingerprint": "5081cc9a16ca37bef54d13df4cc6c7e26d3559cbbdfb1edd5b062bb33bc39cd1",
+        "notes": "Fix iOS crash when entering from the title screen; correct Unit Navigation hook addresses. Game data and saves unchanged.",
+        "ipa": {
+          "name": "Blazing-Rebirth-iOS-b3.ipa",
+          "bytes": 229067840,
+          "sha256": "23a95f8f53462af95663cc44fda9e0840e0414a0be70f103cc6c1dbaf50bdfc7",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-app-v3/Blazing-Rebirth-iOS-b3.ipa"
+        },
+        "rollbackOf": null,
+        "published": "2026-10-11T17:12:32Z"
       }
     ],
     "data": [
@@ -749,6 +763,17 @@
         "rollbackOf": null,
         "sequence": 36,
         "published": "2026-10-11T15:29:21Z"
+      },
+      {
+        "release": 3,
+        "app": 3,
+        "data": 2,
+        "notes": "Fix iOS crash when entering from the title screen; correct Unit Navigation hook addresses. Game data and saves unchanged.",
+        "required": false,
+        "why": "",
+        "rollbackOf": null,
+        "sequence": 41,
+        "published": "2026-10-11T17:12:32Z"
       }
     ]
   }
