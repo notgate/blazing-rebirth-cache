@@ -614,9 +614,9 @@
     "bundleId": "dev.blazingrebirth.ios",
     "feedTag": "ios-updates",
     "current": {
-      "release": 4,
-      "sequence": 42,
-      "signed": "2026-10-11T17:44:56Z"
+      "release": 5,
+      "sequence": 43,
+      "signed": "2026-10-11T20:05:08Z"
     },
     "apps": [
       {
@@ -674,6 +674,20 @@
         },
         "rollbackOf": null,
         "published": "2026-10-11T17:43:20Z"
+      },
+      {
+        "build": 5,
+        "tag": "ios-app-v5",
+        "fingerprint": "e070455bfa0979aefc44ac0c635ea654e5d0dfb29cd34a44d36815504ebe7213",
+        "notes": "iOS build 5 fixes Fill Ramen on the active Enhance page, spaces Auto Awaken like Android, and explains missing materials, Ryo, or levels without spending. Game data and saves unchanged.",
+        "ipa": {
+          "name": "Blazing-Rebirth-iOS-b5.ipa",
+          "bytes": 229109131,
+          "sha256": "8a0d6ab19c30bed996de29482ae80ec3d867b765661e389c5c81b8666246d820",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-app-v5/Blazing-Rebirth-iOS-b5.ipa"
+        },
+        "rollbackOf": null,
+        "published": "2026-10-11T20:03:17Z"
       }
     ],
     "data": [
@@ -799,6 +813,17 @@
         "rollbackOf": null,
         "sequence": 42,
         "published": "2026-10-11T17:43:20Z"
+      },
+      {
+        "release": 5,
+        "app": 5,
+        "data": 2,
+        "notes": "iOS build 5 fixes Fill Ramen on the active Enhance page, spaces Auto Awaken like Android, and explains missing materials, Ryo, or levels without spending. Game data and saves unchanged.",
+        "required": false,
+        "why": "",
+        "rollbackOf": null,
+        "sequence": 43,
+        "published": "2026-10-11T20:03:17Z"
       }
     ]
   }
