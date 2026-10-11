@@ -572,5 +572,80 @@
       "notes": "Rollback build: installer 30 (0.24-history-rc) republished as installer 32, published to test Revert in the release history.",
       "published": "2026-09-27T20:24:58Z"
     }
-  ]
+  ],
+  "ios": {
+    "schema": 1,
+    "bundleId": "dev.blazingrebirth.ios",
+    "feedTag": "ios-updates",
+    "current": {
+      "release": 1,
+      "sequence": 35,
+      "signed": "2026-10-11T15:37:08Z"
+    },
+    "apps": [
+      {
+        "build": 1,
+        "tag": "ios-app-v1",
+        "fingerprint": "72f85e49e3f5885d23163dab79a54c5ac040809945f177ed7f916a5b7c899b2e",
+        "notes": "First iOS offline release: the app downloads its data from GitHub and updates itself (one channel).",
+        "ipa": {
+          "name": "Blazing-Rebirth-iOS-b1.ipa",
+          "bytes": 225822920,
+          "sha256": "989954e40441dbb5df1ec2a21344d7606829e479bf6563c6beba44775fee3fca",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-app-v1/Blazing-Rebirth-iOS-b1.ipa"
+        },
+        "rollbackOf": null,
+        "published": "2026-10-09T02:16:37Z"
+      }
+    ],
+    "data": [
+      {
+        "version": 1,
+        "tag": "ios-data-v1",
+        "id": "451504a8c87055b56f2730f8ba33199ab8577c479c876d234868571cec8707de",
+        "minAppBuild": 1,
+        "archive": {
+          "name": "Blazing-Rebirth-iOS-Data-v1.zip",
+          "bytes": 3497124750,
+          "sha256": "af9bc2a406a8247749b9140d9ad4d1dc9b8adf474d2dc8bc4c6ba53c6df7435b"
+        },
+        "parts": [
+          {
+            "name": "Blazing-Rebirth-iOS-Data-v1.zip.part01",
+            "bytes": 1748562375,
+            "sha256": "d34bbff4d9d89be4c5009f290dbb2236a34529a7e2a1e1deade6cc85180a6266",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v1/Blazing-Rebirth-iOS-Data-v1.zip.part01"
+          },
+          {
+            "name": "Blazing-Rebirth-iOS-Data-v1.zip.part02",
+            "bytes": 1748562375,
+            "sha256": "9ec995f68e34a8f6ef5bd5726b2bb93791ff942c36f415afba9d27695e3fa80e",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v1/Blazing-Rebirth-iOS-Data-v1.zip.part02"
+          }
+        ],
+        "listing": {
+          "name": "Blazing-Rebirth-iOS-Data-v1.files.json",
+          "bytes": 1402826,
+          "sha256": "c27d40f1ea0d1f6be39c64c63356e8cc8032fc8678b385b41f564d7cccf6252a",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v1/Blazing-Rebirth-iOS-Data-v1.files.json"
+        },
+        "deltas": [],
+        "rollbackOf": null,
+        "published": "2026-10-09T02:18:11Z"
+      }
+    ],
+    "releases": [
+      {
+        "release": 1,
+        "app": 1,
+        "data": 1,
+        "notes": "First iOS offline release: the app downloads its data from GitHub and updates itself (one channel).",
+        "required": false,
+        "why": "",
+        "rollbackOf": null,
+        "sequence": 35,
+        "published": "2026-10-09T02:18:11Z"
+      }
+    ]
+  }
 }
