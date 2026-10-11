@@ -42,6 +42,7 @@ The iPhone app checks the signed feed [`ios-updates/update-ios.json`](https://gi
 
 | Release | App build | Data version | Rollback of | Notes |
 | --- | --- | --- | --- | --- |
+| 3 | [3](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-app-v3) | [2](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-data-v2) |  | Fix iOS crash when entering from the title screen; correct Unit Navigation hook  |
 | 2 | [2](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-app-v2) | [2](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-data-v2) |  | Auto Loop for completed missions: skip scenes, claim rewards, restart continuous |
 | 1 | [1](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-app-v1) | [1](https://github.com/notgate/blazing-rebirth-cache/releases/tag/ios-data-v1) |  | First iOS offline release: the app downloads its data from GitHub and updates it |
 
