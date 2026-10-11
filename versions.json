@@ -2,7 +2,7 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-10-01T05:50:51Z",
+  "updated": "2026-10-11T16:42:49Z",
   "channels": {
     "stable": {
       "installerVersion": 39,
@@ -24,21 +24,21 @@
       }
     },
     "beta": {
-      "installerVersion": 41,
-      "displayVersion": "0.28.1-teams-rc",
-      "tag": "launcher-v41-beta",
+      "installerVersion": 42,
+      "displayVersion": "0.29-auto-loop",
+      "tag": "launcher-v42-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-10-01T05:50:51Z",
+      "signed": "2026-10-11T16:42:49Z",
       "manifests": {
         "x86_64": {
-          "sequence": 33,
-          "expiresUtc": 1801201845,
-          "payloadSha256": "c8367b270276a37c0fb2ae58c796c72f937c707fc745fb06a24bf134f2fc6221"
+          "sequence": 37,
+          "expiresUtc": 1802104923,
+          "payloadSha256": "29631d14677467608edf71131b52ef28b52c5f938d40c092ce0a736b69d1fd6e"
         },
         "arm64-v8a": {
-          "sequence": 34,
-          "expiresUtc": 1801201848,
-          "payloadSha256": "23e14fc93e0505b86a7f8bf70c8556a80e3ba9ca4ba1f4042cd39f4d8cbd382d"
+          "sequence": 38,
+          "expiresUtc": 1802104925,
+          "payloadSha256": "7f8cfafbca9430f6b3861e9f0e0baba7527d06dae09bcb59d922cda3a40eeb3e"
         }
       }
     }
@@ -474,6 +474,39 @@
       },
       "channelNotes": {
         "beta": "Hotfix 41 (0.28.1-teams-rc) for installer 40.\n- Fixed: \"That Summon has not been released yet.\" on listed summon banners such as Kaguya and Nagato. Every banner you can see can be summoned now, also after the game was reopened.\n- Every summon banner was checked: its rates page, single and 10-summons, and that characters come from its own pool.\n- Compensation in your Gift Box, once per save: 500 Ninja Pearls, 5 4th Anniv. Ultimate Blazing Bash Summon Tickets and 5 5 Star Guaranteed Ultimate Blazing Bash Summon Tickets. Use the tickets on the 4th Anniversary Ticket Ultimate Blazing Bash summon.\n- Updates > Release history now shows the releases of the channel you selected (Stable or Beta) with that channel's notes.\n- Coming from installer 39 or older? After updating, tap Fix, then Install, to get game runtime 124 (3x battle speed). Your progress is kept."
+      }
+    },
+    {
+      "installerVersion": 42,
+      "displayVersion": "0.29-auto-loop",
+      "gameVersion": 172,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v42-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 451915366,
+          "sha256": "0d8a534c1d52ab4e81fb2cf6b98198fc2293446ea0f40aed8f320ab62716f431"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 451785290,
+          "sha256": "0d97594647d4d04027f68fd2fadd2d7d05500b1122467345d29ac0770d714dff"
+        }
+      },
+      "notes": "Auto Loop for completed missions skips story scenes, collects rewards, and restarts automatically. On defeat, it uses one Ninja Pearl to continue when available and stops with zero pearls. Native unit management quality-of-life controls are included.",
+      "published": {
+        "beta": "2026-10-11T16:42:49Z"
+      },
+      "channelNotes": {
+        "beta": "Auto Loop for completed missions skips story scenes, collects rewards, and restarts automatically. On defeat, it uses one Ninja Pearl to continue when available and stops with zero pearls. Native unit management quality-of-life controls are included."
       }
     }
   ],
