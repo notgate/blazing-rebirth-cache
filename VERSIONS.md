@@ -7,12 +7,13 @@ Generated from [`versions.json`](versions.json) by `source/tools/publisher/relea
 | Channel | Launcher | Version name | Release | Content | Feed signed |
 | --- | --- | --- | --- | --- | --- |
 | stable | 42 | 0.29-auto-loop | [launcher-v42](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v42) | 2 | 2026-10-11 |
-| beta | 42 | 0.29-auto-loop | [launcher-v42-beta](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v42-beta) | 2 | 2026-10-11 |
+| beta | 46 | 0.33-endless-boss-rush | [launcher-v46-beta](https://github.com/notgate/blazing-rebirth-cache/releases/tag/launcher-v46-beta) | 2 | 2026-10-13 |
 
 ## Launcher builds
 
 | Launcher | Version name | Runtime | Content | Channels | x86_64 SHA-256 | arm64-v8a SHA-256 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 46 | 0.33-endless-boss-rush | 177 | 2 | beta | `8cdecde52f5314ba…` | `b195c9e13aace783…` |
 | 42 | 0.29-auto-loop | 172 | 2 | beta, stable | `0d8a534c1d52ab4e…` | `0d97594647d4d040…` |
 | 41 | 0.28.1-teams-rc | 124 | 2 | beta | `5f32e89e5cf832aa…` | `bf55a777b423cf2a…` |
 | 40 | 0.28-teams-rc | 124 | 2 | beta | `5e5b9461198f7a7b…` | `47ffa4c734cd295f…` |
