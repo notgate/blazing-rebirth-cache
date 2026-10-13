@@ -650,9 +650,9 @@
     "bundleId": "dev.blazingrebirth.ios",
     "feedTag": "ios-updates",
     "current": {
-      "release": 6,
-      "sequence": 44,
-      "signed": "2026-10-11T22:26:57Z"
+      "release": 7,
+      "sequence": 49,
+      "signed": "2026-10-13T04:29:28Z"
     },
     "apps": [
       {
@@ -738,6 +738,20 @@
         },
         "rollbackOf": null,
         "published": "2026-10-11T22:25:10Z"
+      },
+      {
+        "build": 10,
+        "tag": "ios-app-v10",
+        "fingerprint": "2e64de4fc5cee8d895d186fbe65f282884baff1e3abb0922215b82f51add35ae",
+        "notes": "Infinite Boss Rush now continues on one map until defeat or retreat, with one randomized boss per wave, increasing enemy levels and accumulated rewards. Centered Kills and Wave counters use the original HUD plates. Defeated enemy objects are pruned for long runs. A/S/SS remain under one banner. Existing Auto Loop and QoL retained. Static verification passed; iPhone gameplay validation pending.",
+        "ipa": {
+          "name": "Blazing-Rebirth-iOS-b10.ipa",
+          "bytes": 230446493,
+          "sha256": "5e2f9b03652a2bcb4b3f90d724dea31da0d17bd2c020161f0ea74d002369b8b9",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-app-v10/Blazing-Rebirth-iOS-b10.ipa"
+        },
+        "rollbackOf": null,
+        "published": "2026-10-13T03:10:17Z"
       }
     ],
     "data": [
@@ -817,6 +831,57 @@
         ],
         "rollbackOf": null,
         "published": "2026-10-11T15:29:21Z"
+      },
+      {
+        "version": 7,
+        "tag": "ios-data-v7",
+        "id": "c92b72f8b17dcd787b9fd5738ee8badec719492a27342245c9ca936f3d88d638",
+        "minAppBuild": 10,
+        "archive": {
+          "name": "Blazing-Rebirth-iOS-Data-v7.zip",
+          "bytes": 3513157616,
+          "sha256": "4cea6b6c4962f69567b2f5eb3270f9932a3657fb2497533697a4f23f145537ca"
+        },
+        "parts": [
+          {
+            "name": "Blazing-Rebirth-iOS-Data-v7.zip.part01",
+            "bytes": 1756578808,
+            "sha256": "89813788ce876d810a76f009b23990b1f151976224b01db051096b331b74aa5b",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v7/Blazing-Rebirth-iOS-Data-v7.zip.part01"
+          },
+          {
+            "name": "Blazing-Rebirth-iOS-Data-v7.zip.part02",
+            "bytes": 1756578808,
+            "sha256": "7e601a5255ca73601aaa1bd930f3b418c04e1f51b23adf73e143027e934137c9",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v7/Blazing-Rebirth-iOS-Data-v7.zip.part02"
+          }
+        ],
+        "listing": {
+          "name": "Blazing-Rebirth-iOS-Data-v7.files.json",
+          "bytes": 1402829,
+          "sha256": "72df74bebb56cfeaab53165450950b5427b5e1ea327ed420b3e7728bc663d42a",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v7/Blazing-Rebirth-iOS-Data-v7.files.json"
+        },
+        "deltas": [
+          {
+            "from": 2,
+            "fromId": "31586febfa43bf8b89dd5f8529f9964ef433e09cbb07ab26b3afd1a8b7d61c42",
+            "name": "Blazing-Rebirth-iOS-Data-v7-from-v2.delta.zip",
+            "bytes": 90681223,
+            "sha256": "8c722509b05bfaa44a3c0d2566e048706d3a8e277f28763cf3f37a29ccbe9745",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v7/Blazing-Rebirth-iOS-Data-v7-from-v2.delta.zip"
+          },
+          {
+            "from": 1,
+            "fromId": "451504a8c87055b56f2730f8ba33199ab8577c479c876d234868571cec8707de",
+            "name": "Blazing-Rebirth-iOS-Data-v7-from-v1.delta.zip",
+            "bytes": 110985285,
+            "sha256": "f709229858766f77b66ce208a28eb3f3e697d42d9cceeff6c1b84569b50aaaa2",
+            "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-data-v7/Blazing-Rebirth-iOS-Data-v7-from-v1.delta.zip"
+          }
+        ],
+        "rollbackOf": null,
+        "published": "2026-10-13T03:12:20Z"
       }
     ],
     "releases": [
@@ -885,6 +950,17 @@
         "rollbackOf": null,
         "sequence": 44,
         "published": "2026-10-11T22:25:10Z"
+      },
+      {
+        "release": 7,
+        "app": 10,
+        "data": 7,
+        "notes": "Infinite Boss Rush now continues on one map until defeat or retreat, with one randomized boss per wave, increasing enemy levels and accumulated rewards. Centered Kills and Wave counters use the original HUD plates. Defeated enemy objects are pruned for long runs. A/S/SS remain under one banner. Existing Auto Loop and QoL retained. Static verification passed; iPhone gameplay validation pending.",
+        "required": false,
+        "why": "",
+        "rollbackOf": null,
+        "sequence": 49,
+        "published": "2026-10-13T03:12:20Z"
       }
     ]
   }
