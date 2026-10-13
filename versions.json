@@ -2,24 +2,24 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-10-13T03:28:49Z",
+  "updated": "2026-10-13T03:41:37Z",
   "channels": {
     "stable": {
-      "installerVersion": 42,
-      "displayVersion": "0.29-auto-loop",
-      "tag": "launcher-v42",
+      "installerVersion": 46,
+      "displayVersion": "0.33-endless-boss-rush",
+      "tag": "launcher-v46",
       "feedTag": "apk-updates",
-      "signed": "2026-10-11T16:51:42Z",
+      "signed": "2026-10-13T03:41:37Z",
       "manifests": {
         "x86_64": {
-          "sequence": 39,
-          "expiresUtc": 1802105497,
-          "payloadSha256": "226a7a2e246dfb916b53567a5f93e0221caeeeb40f727601cb8c21a28f82a4bf"
+          "sequence": 47,
+          "expiresUtc": 1802230891,
+          "payloadSha256": "1e00995d1c9ccf27511a00d4445a2ea636d18fa9cdb9d25428fe5e2359ad6f6a"
         },
         "arm64-v8a": {
-          "sequence": 40,
-          "expiresUtc": 1802105499,
-          "payloadSha256": "4e61f72edac778f0c5f878a40bf913369a7b212c32abbc205733c98e694a8591"
+          "sequence": 48,
+          "expiresUtc": 1802230894,
+          "payloadSha256": "3837cf27dcac4bad5c1a9ce7ac3d16d339e4d977c5eea671ad15229c750b3723"
         }
       }
     },
@@ -523,7 +523,8 @@
         4096
       ],
       "releases": {
-        "beta": "launcher-v46-beta"
+        "beta": "launcher-v46-beta",
+        "stable": "launcher-v46"
       },
       "apks": {
         "x86_64": {
@@ -539,10 +540,12 @@
       },
       "notes": "Infinite Boss Rush: one banner with A/S/SS ranks, continuous randomized one-boss waves until defeat or retreat, centered Kills/Wave counters, visible boss rigs, increasing material rewards and duplicate-safe reward settlement. Verified on Android through Wave 12, with 11-kill rewards in the Present Box. Existing game-data cache and saves are preserved.",
       "published": {
-        "beta": "2026-10-13T03:28:49Z"
+        "beta": "2026-10-13T03:28:49Z",
+        "stable": "2026-10-13T03:41:37Z"
       },
       "channelNotes": {
-        "beta": "Infinite Boss Rush: one banner with A/S/SS ranks, continuous randomized one-boss waves until defeat or retreat, centered Kills/Wave counters, visible boss rigs, increasing material rewards and duplicate-safe reward settlement. Verified on Android through Wave 12, with 11-kill rewards in the Present Box. Existing game-data cache and saves are preserved."
+        "beta": "Infinite Boss Rush: one banner with A/S/SS ranks, continuous randomized one-boss waves until defeat or retreat, centered Kills/Wave counters, visible boss rigs, increasing material rewards and duplicate-safe reward settlement. Verified on Android through Wave 12, with 11-kill rewards in the Present Box. Existing game-data cache and saves are preserved.",
+        "stable": "Infinite Boss Rush: one banner with A/S/SS ranks, continuous randomized one-boss waves until defeat or retreat, centered Kills/Wave counters, visible boss rigs, increasing material rewards and duplicate-safe reward settlement. Verified on Android through Wave 12, with 11-kill rewards in the Present Box. Existing game-data cache and saves are preserved."
       }
     }
   ],
