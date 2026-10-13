@@ -2,7 +2,7 @@
   "schema": 1,
   "repository": "notgate/blazing-rebirth-cache",
   "package": "dev.blazingrebirth.phone",
-  "updated": "2026-10-11T16:51:42Z",
+  "updated": "2026-10-13T03:28:49Z",
   "channels": {
     "stable": {
       "installerVersion": 42,
@@ -24,21 +24,21 @@
       }
     },
     "beta": {
-      "installerVersion": 42,
-      "displayVersion": "0.29-auto-loop",
-      "tag": "launcher-v42-beta",
+      "installerVersion": 46,
+      "displayVersion": "0.33-endless-boss-rush",
+      "tag": "launcher-v46-beta",
       "feedTag": "apk-updates-beta",
-      "signed": "2026-10-11T16:42:49Z",
+      "signed": "2026-10-13T03:28:49Z",
       "manifests": {
         "x86_64": {
-          "sequence": 37,
-          "expiresUtc": 1802104923,
-          "payloadSha256": "29631d14677467608edf71131b52ef28b52c5f938d40c092ce0a736b69d1fd6e"
+          "sequence": 45,
+          "expiresUtc": 1802230123,
+          "payloadSha256": "4f555c82b64d99ef572eb18a40b8757de816efdead1e401bb46abeddc1e97b49"
         },
         "arm64-v8a": {
-          "sequence": 38,
-          "expiresUtc": 1802104925,
-          "payloadSha256": "7f8cfafbca9430f6b3861e9f0e0baba7527d06dae09bcb59d922cda3a40eeb3e"
+          "sequence": 46,
+          "expiresUtc": 1802230127,
+          "payloadSha256": "1100b2cd90d08876c83b75863fcb9be3dfbec6399a6f7dad206c04d9c0546068"
         }
       }
     }
@@ -510,6 +510,39 @@
       "channelNotes": {
         "beta": "Auto Loop for completed missions skips story scenes, collects rewards, and restarts automatically. On defeat, it uses one Ninja Pearl to continue when available and stops with zero pearls. Native unit management quality-of-life controls are included.",
         "stable": "Auto Loop for completed missions skips story scenes, collects rewards, and restarts automatically. On defeat, it uses one Ninja Pearl to continue when available and stops with zero pearls. Native unit management quality-of-life controls are included."
+      }
+    },
+    {
+      "installerVersion": 46,
+      "displayVersion": "0.33-endless-boss-rush",
+      "gameVersion": 177,
+      "contentVersion": 2,
+      "baseCacheSha256": "816cbde1e2f759d7be041635efba06df173b6de515c3c673576fb4593e0949bf",
+      "minSdk": 28,
+      "pageSizes": [
+        4096
+      ],
+      "releases": {
+        "beta": "launcher-v46-beta"
+      },
+      "apks": {
+        "x86_64": {
+          "name": "Blazing-Rebirth-x86_64.apk",
+          "bytes": 452230758,
+          "sha256": "8cdecde52f5314babb801b9ea324ea464061c424c5f8da7fa3751a14770ab6d9"
+        },
+        "arm64-v8a": {
+          "name": "Blazing-Rebirth-arm64-v8a.apk",
+          "bytes": 452100682,
+          "sha256": "b195c9e13aace7831bd2e05ed82f1cdb11fede66312cc42cd105c6bb41f47d83"
+        }
+      },
+      "notes": "Infinite Boss Rush: one banner with A/S/SS ranks, continuous randomized one-boss waves until defeat or retreat, centered Kills/Wave counters, visible boss rigs, increasing material rewards and duplicate-safe reward settlement. Verified on Android through Wave 12, with 11-kill rewards in the Present Box. Existing game-data cache and saves are preserved.",
+      "published": {
+        "beta": "2026-10-13T03:28:49Z"
+      },
+      "channelNotes": {
+        "beta": "Infinite Boss Rush: one banner with A/S/SS ranks, continuous randomized one-boss waves until defeat or retreat, centered Kills/Wave counters, visible boss rigs, increasing material rewards and duplicate-safe reward settlement. Verified on Android through Wave 12, with 11-kill rewards in the Present Box. Existing game-data cache and saves are preserved."
       }
     }
   ],
