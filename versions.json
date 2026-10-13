@@ -650,9 +650,9 @@
     "bundleId": "dev.blazingrebirth.ios",
     "feedTag": "ios-updates",
     "current": {
-      "release": 7,
-      "sequence": 49,
-      "signed": "2026-10-13T04:29:28Z"
+      "release": 8,
+      "sequence": 50,
+      "signed": "2026-10-13T04:57:17Z"
     },
     "apps": [
       {
@@ -752,6 +752,20 @@
         },
         "rollbackOf": null,
         "published": "2026-10-13T03:10:17Z"
+      },
+      {
+        "build": 11,
+        "tag": "ios-app-v11",
+        "fingerprint": "818efae4d2e07b471b6115eff3cb125003dec9c366f594cee060bc3eed63fbeb",
+        "notes": "Fixes startup after upgrading from older offline data; migration runs before recovery-catalog checks and preserves saves. Old remembered, staged, and pending data cannot replace compatible running data. Rejects older signed data feeds. Exact backend/catalog validation remains enforced. Published offline data7 is unchanged. Infinite Boss Rush and native QoL are retained. 25 policy checks, real data2-to7/save migration, and 12 static checks passed; iPhone confirmation pending.",
+        "ipa": {
+          "name": "Blazing-Rebirth-iOS-b11.ipa",
+          "bytes": 230462882,
+          "sha256": "d032104495e7f88c9633a94463a0ddad03433a6cc5bf9ef3b0f79a7fb31416a6",
+          "url": "https://github.com/notgate/blazing-rebirth-cache/releases/download/ios-app-v11/Blazing-Rebirth-iOS-b11.ipa"
+        },
+        "rollbackOf": null,
+        "published": "2026-10-13T04:55:08Z"
       }
     ],
     "data": [
@@ -961,6 +975,17 @@
         "rollbackOf": null,
         "sequence": 49,
         "published": "2026-10-13T03:12:20Z"
+      },
+      {
+        "release": 8,
+        "app": 11,
+        "data": 7,
+        "notes": "Fixes startup after upgrading from older offline data; migration runs before recovery-catalog checks and preserves saves. Old remembered, staged, and pending data cannot replace compatible running data. Rejects older signed data feeds. Exact backend/catalog validation remains enforced. Published offline data7 is unchanged. Infinite Boss Rush and native QoL are retained. 25 policy checks, real data2-to7/save migration, and 12 static checks passed; iPhone confirmation pending.",
+        "required": false,
+        "why": "",
+        "rollbackOf": null,
+        "sequence": 50,
+        "published": "2026-10-13T04:55:08Z"
       }
     ]
   }
